@@ -1,0 +1,32 @@
+.main__info .info {
+    list-style: none;
+    .info--price {
+        font-size: 11px;
+        color: #000000;
+    }
+    .info--color {
+        width: auto;
+        display: inline-block;
+        margin: 2px 0 0;
+        overflow: hidden;
+        span:first-child {
+            background-color: #BDBDBD;
+        }
+        span:nth-child(2) {
+            background-color: #EBDCC5;
+        }
+        span:last-child {
+            background-color: #000082;
+        }
+    }
+    .chips {
+        display: inline-block;
+        text-align: left;
+        width: 8px;
+        height: 8px;
+        margin: 6px 2px 0 0;
+        border: 1px solid #ddd;
+        font-size: 0;
+        line-height: 0;
+    }
+}
