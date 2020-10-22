@@ -1,0 +1,39 @@
+.main__info .info {
+  list-style: none;
+}
+
+.main__info .info .info--price {
+  font-size: 11px;
+  color: #000000;
+}
+
+.main__info .info .info--color {
+  width: auto;
+  display: inline-block;
+  margin: 2px 0 0;
+  overflow: hidden;
+}
+
+.main__info .info .info--color span:first-child {
+  background-color: #BDBDBD;
+}
+
+.main__info .info .info--color span:nth-child(2) {
+  background-color: #EBDCC5;
+}
+
+.main__info .info .info--color span:last-child {
+  background-color: #000082;
+}
+
+.main__info .info .chips {
+  display: inline-block;
+  text-align: left;
+  width: 8px;
+  height: 8px;
+  margin: 6px 2px 0 0;
+  border: 1px solid #ddd;
+  font-size: 0;
+  line-height: 0;
+}
+/*# sourceMappingURL=styles.css.map */
